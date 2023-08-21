@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(113, 201, 206);
+  background: linear-gradient(
+    143deg,
+    rgba(113, 201, 206, 1) 0%,
+    rgba(203, 241, 245, 1) 100%
+  );
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.App {
+  height: 100%;
+  padding-bottom: 20px;
+  z-index: 1;
+  position: absolute;
+}
+.select {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  right: -90%;
+  margin: 20px 0 10px 0;
+}
+.book {
+  background: rgb(166, 227, 233);
+  background: radial-gradient(
+    circle,
+    rgba(166, 227, 233, 1) 0%,
+    rgba(227, 253, 253, 1) 41%
+  );
+  position: relative;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 100px 50px 10px 50px;
+}
+.book h1 {
+  margin-bottom: 30px;
+  font-weight: 800;
+}
+.book footer {
+  margin-top: 80px;
+  padding: 0px 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.book .circle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #2929293f;
+  z-index: 1;
+  top: 12%;
+  left: 40%;
+  border-radius: 50%;
+}
