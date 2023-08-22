@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function Onsoz({ lang }) {
+function Foreword({ lang }) {
   if (lang === "tr") {
     return (
       <div className="panel book">
@@ -98,4 +98,4 @@ function Onsoz({ lang }) {
   }
 }
 
-export default Onsoz;
+export default Foreword;
