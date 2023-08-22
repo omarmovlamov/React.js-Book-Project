@@ -63,3 +63,10 @@ body {
   left: 40%;
   border-radius: 50%;
 }
+.code {
+  border: 3px solid darkcyan;
+  border-radius: 5px;
+  padding: 5px;
+  max-width: 700px;
+  background-color: hsl(0, 0%, 21%);
+}
