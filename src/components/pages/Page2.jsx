@@ -2,7 +2,7 @@
 
 import { Link } from "react-router-dom";
 
-function Page1({ lang }) {
+function Page2({ lang }) {
   console.log(lang);
 
   if (lang === "tr") {
@@ -145,4 +145,4 @@ function Page1({ lang }) {
   }
 }
 
-export default Page1;
+export default Page2;
