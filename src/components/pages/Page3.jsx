@@ -2,9 +2,7 @@
 
 import { Link } from "react-router-dom";
 
-function Page1({ lang }) {
-  console.log(lang);
-
+function Page3({ lang }) {
   if (lang === "tr") {
     return (
       <div>
@@ -92,7 +90,7 @@ function Page1({ lang }) {
               <Link to="/page-2" className="button is-warning mr-4">
                 Önceki sayfa
               </Link>
-              <Link to="/page-1" className="button is-primary">
+              <Link to="/page-4" className="button is-primary">
                 Sonraki Sayfa
               </Link>
             </div>
@@ -188,7 +186,7 @@ function Page1({ lang }) {
               <Link to="/page-2" className="button is-warning mr-4">
                 Previous page
               </Link>
-              <Link to="/page-1" className="button is-primary">
+              <Link to="/page-4" className="button is-primary">
                 Next Page
               </Link>
             </div>
@@ -199,4 +197,4 @@ function Page1({ lang }) {
   }
 }
 
-export default Page1;
+export default Page3;
